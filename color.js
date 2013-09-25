@@ -249,6 +249,10 @@ if (!net.brehaut) { net.brehaut = {}; }
     toString: function ( ) {
       return this.toCSS();
     }
+
+    toStringRGB: function () {
+        return 'rgb(' + this.red + ', ' + this.green + ', ' + this.blue + ')';
+    }
   };
 
 
